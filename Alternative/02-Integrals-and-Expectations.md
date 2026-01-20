@@ -16,9 +16,11 @@
 An **Indicator Function** (or Characteristic Function, $\mathbb{I}_A$) is the **simplest possible measurable function**. It only answers a **yes/no** question: ***"Did the outcome ω belong to the event A?"***
 
 *   **Definition**: $\mathbb{I}_A : \Omega \to \{0, 1\}$ defined as:
+
 $$
 \mathbb{I}_A(\omega) = \begin{cases} 1 & \text{if } \omega \in A \\ 0 & \text{if } \omega \notin A \end{cases}
 $$
+
 *   **Use in Probability**: The expected value of an indicator function gives the probability of the event: $E[\mathbb{I}_A] = P(A)$.
 
 ---
