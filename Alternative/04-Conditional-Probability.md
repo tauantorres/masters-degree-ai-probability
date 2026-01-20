@@ -43,8 +43,8 @@ This topic is the practical application of Bayes' Formula in sequential reasonin
 
 1.  **Start with a Prior ($P_{prior}$)**: This is your initial belief or baseline knowledge (e.g., $P(\text{Disease}) = 0.01$).
 2.  **Gather Evidence ($E$)**: You conduct a test or observe data (e.g., test result is positive).
-3.  **Calculate the Likelihood ($P(E|\text{State})$)**: How often does the test correctly identify the state?
-4.  **Compute the Posterior ($P_{posterior}$)**: Use Bayes' rule to formally calculate the new, updated probability (e.g., $P(\text{Disease}|\text{Positive Test})$).
+3.  **Calculate the Likelihood ($P(E\|\text{State})$)**: How often does the test correctly identify the state?
+4.  **Compute the Posterior ($P_{posterior}$)**: Use Bayes' rule to formally calculate the new, updated probability (e.g., $P(\text{Disease}\|\text{Positive Test})$).
 
 > **Key Concept**: The **posterior probability** from one experiment becomes the **prior probability** for the next experiment.
 
