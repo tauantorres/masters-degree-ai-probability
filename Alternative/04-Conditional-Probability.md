@@ -9,7 +9,7 @@
 
 ### **`Topic 4.1` Incomplete Information and Sub-$\sigma$-algebras**:
 
-In probability theory, our "information set" is formally represented by a **$\sigma$-algebra ($\mathcal{F}$)**. When we only have *partial* information, we work with a smaller sub-$\sigma$-algebra ($\mathcal{G} \subset \mathcal{F}$).
+In probability theory, our "information set" is formally represented by a **$\sigma$-algebra ($\mathcal{F}$)**. When we only have *partial* information, we work with a smaller sub $\sigma$ algebra ($\mathcal{G} \subset \mathcal{F}$).
 
 *   **Meaning**: We can only discern events contained within the partitions of $\mathcal{G}$. Events outside of $\mathcal{G}$ are indistinguishable based on our current information.
 *   **Example**: In a medical trial, $\mathcal{F}$ could describe the full health record of a patient. $\mathcal{G}$ might only contain the information "Patient took the drug" or "Patient took the placebo." We can't use $\mathcal{G}$ to determine the patient's cholesterol level.
