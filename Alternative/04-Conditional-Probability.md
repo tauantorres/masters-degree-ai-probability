@@ -1,4 +1,9 @@
-# `Conditional Probability and Information`
+# `04. Conditional Probability and Information`
+
+1. Incomplete information and sub-sigma-algebras. 
+2. Bayes’ formula as a ratio of measures. 
+3. Prior probability and its update. 
+4. Definition of independence.
 
 ---
 

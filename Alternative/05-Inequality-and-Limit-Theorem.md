@@ -1,4 +1,11 @@
-# `Inequalities and Limit Theorems`
+# `05. Inequalities and Limit Theorems`
+
+1. Convexity.
+2. Gibbs’, Markov’s, and Chebyshev’s inequalities.
+3. Modes of convergence. 
+4. Weak and strong laws of large numbers.
+5. Central limit theorem.
+6. Kullback–Leibler divergence, cross-entropy, and mutual information.
 
 ---
 

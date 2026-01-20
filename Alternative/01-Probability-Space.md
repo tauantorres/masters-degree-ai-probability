@@ -1,4 +1,15 @@
-# `First Lector`: Probability Space & Measure Theory
+# `01. Probability Space & Measure Theory`
+
+1. Measure function and its properties. 
+2. Measurable spaces. 
+3. Absolutely continuous and mixed measures. 
+4. Radon–Nikodym derivative. 
+5. Kolmogorov axioms. 
+6. Sample space. 
+7. Event space. 
+8. Probability measure. 
+9. Joint (product) spaces. 
+10. Conditional measure and partial information.
 
 ---
 
@@ -34,6 +45,7 @@ Probability is defined by the **Probability Triple** $(\Omega, \mathcal{F}, P)$.
 | **$\Omega$** | **Sample Space** | The set of all possible outcomes (e.g., $\{H, T\}$). |
 | **$\mathcal{F}$** | **Event Space** | A $\sigma$-algebra of subsets of $\Omega$ that we can assign probabilities to. |
 | **$P$** | **Probability Measure** | A measure where the total mass is exactly 1 ($P(\Omega) = 1$). |
+| **A** | Subset $A \in \mathcal{F}$ | An outcome (event) or collection of outcomes we can assign a probability to. |
 
 **Kolmogorov Axioms**:
 1. $P(A) \ge 0$ for all $A \in \mathcal{F}$.

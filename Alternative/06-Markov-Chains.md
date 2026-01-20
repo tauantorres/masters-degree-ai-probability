@@ -1,4 +1,12 @@
-# `Markov Chains`
+# `06. Markov Chains`
+
+1. Markov processes and Markov chains, Markov property. 
+2. Geometric interpretation. 
+3. Markov kernel, examples and memory properties. 
+4. Stationary distribution. 
+5. Irreducible and reducible chains. 
+6. Transient states. 
+7. Sampling problems and Monte Carlo methods.
 
 ---
 

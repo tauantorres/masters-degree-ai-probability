@@ -1,4 +1,4 @@
-# `Integrals and Expectation`:
+# `02. Integrals and Expectation`:
 
 1. Indicator functions.
 2. Simple functions.
@@ -13,7 +13,7 @@
 
 ### **`Topic 2.1` Indicator Functions**:
 
-An **Indicator Function** (or Characteristic Function, $\mathbb{I}_A$) is a basic building block in measure theory and probability. It is a function that indicates whether an element belongs to a specific set $A$.
+An **Indicator Function** (or Characteristic Function, $\mathbb{I}_A$) is the **simplest possible measurable function**. It only answers a **yes/no** question: ***"Did the outcome ω belong to the event A?"***
 
 *   **Definition**: $\mathbb{I}_A : \Omega \to \{0, 1\}$ defined as:
     $$\mathbb{I}_A(\omega) = \begin{cases} 1 & \text{if } \omega \in A \\ 0 & \text{if } \omega \notin A \end{cases}$$
@@ -24,6 +24,7 @@ An **Indicator Function** (or Characteristic Function, $\mathbb{I}_A$) is a basi
 ### **`Topic 2.2` Simple Functions**:
 
 A **Simple Function** is a function that takes on only a finite number of distinct values. It is a linear combination of indicator functions.
+In another words, is basically a “categorizer”: it splits outcomes into finitely many buckets, and assigns a constant value to each bucket.
 
 *   **Definition**: A function $s: \Omega \to \mathbb{R}$ is simple if $s(\omega) = \sum_{i=1}^{n} a_i \mathbb{I}_{A_i}(\omega)$, where $a_i \in \mathbb{R}$ are the finite values taken by the function, and $A_i$ are disjoint measurable sets.
 *   **Importance**: Simple functions are the bridge used to define the Lebesgue integral for more complex functions.
